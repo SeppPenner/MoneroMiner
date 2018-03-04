@@ -9,10 +9,18 @@ The assembly was written and tested in .Net 4.7.
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/MoneroMiner.svg)](https://github.com/SeppPenner/MoneroMiner/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/MoneroMiner.svg)](https://github.com/SeppPenner/MoneroMiner/stargazers)
 [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/MoneroMiner/master/License.txt)
-[![Nuget](https://img.shields.io/badge/MoneroMiner-Nuget-brightgreen.svg)](https://www.nuget.org/packages/HaemmerElectronics.SeppPenner.Language/)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/HaemmerElectronics.SeppPenner.Language.svg)](https://www.nuget.org/packages/HaemmerElectronics.SeppPenner.Language/)
+[![Nuget](https://img.shields.io/badge/MoneroMiner-Nuget-brightgreen.svg)](https://www.nuget.org/packages/HaemmerElectronics.SeppPenner.MoneroMiner/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/HaemmerElectronics.SeppPenner.MoneroMiner.svg)](https://www.nuget.org/packages/HaemmerElectronics.SeppPenner.MoneroMiner/)
 
 ## Basic usage:
+```csharp
+IMiner miner = new Miner();
+miner.RunMiner("stratum+tcp://xmr.pool.minergate.com:45560", "rsaUGDSAQIF_UWRTGWUAFSAdshz8fw7wgfh", "2");
+miner.Exit();
+```
+
+See the method options below:
+
 ```csharp
 /// <summary>
 /// The method to run the miner.
