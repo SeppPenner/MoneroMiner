@@ -43,4 +43,5 @@ This project is based on [monerospelunker](https://github.com/jwinterm/monerospe
 Change history
 --------------
 
+* **Version 1.0.0.1 (2018-03-04)** : Update through link errors.
 * **Version 1.0.0.0 (2018-03-04)** : 1.0 release.
