@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>HaemmerElectronics.SeppPenner.MoneroMiner</id>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <authors>SeppPenner</authors>
     <owners>SeppPenner</owners>
     <licenseUrl>https://github.com/SeppPenner/MoneroMiner/blob/master/License.txt</licenseUrl>
@@ -14,8 +14,9 @@
 		The assembly was written and tested in .Net 4.7.
 	</description>
     <releaseNotes>
-		Version 1.0.0.1 (2018-03-04)** : Update through link errors.
-		Version 1.0.0.0 (2018-03-04)** : 1.0 release.
+		Version 1.0.0.2 (2018-03-15) : Fixed bug with different .Net versions in the Nuget package.
+		Version 1.0.0.1 (2018-03-04) : Update through link errors.
+		Version 1.0.0.0 (2018-03-04) : 1.0 release.
 	</releaseNotes>
     <copyright>Copyright © Hämmer Electronics 2018</copyright>
     <tags>c# csharp monero miner monero-miner</tags>
@@ -23,9 +24,8 @@
   <files>
 		<file src="README.md" target="lib\" />
 		<file src="License.txt" target="lib\" />
-		<file src="cpuminer-multi-wolf-AES\**" target="lib\cpuminer-multi-wolf-AES" />
-		<file src=".Net 4.5\**" target="lib\.Net 4.5" />
-		<file src=".Net 4.6.2\**" target="lib\.Net 4.6.2" />
-		<file src=".Net 4.7\**" target="lib\.Net 4.7" />
+		<file src=".Net 4.5\**" target="lib\net45" />
+		<file src=".Net 4.6.2\**" target="lib\net462" />
+		<file src=".Net 4.7\**" target="lib\net47" />
     </files>
 </package>
