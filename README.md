@@ -42,6 +42,7 @@ This project is based on [monerospelunker](https://github.com/jwinterm/monerospe
 Change history
 --------------
 
+* **Version 1.0.1.0 (2019-10-27)** : Updated nuget packages, added GitVersionTask.
 * **Version 1.0.0.3 (2019-05-07)** : Updated .Net version to 4.8.
 * **Version 1.0.0.2 (2018-03-15)** : Fixed bug with different .Net versions in the Nuget package.
 * **Version 1.0.0.1 (2018-03-04)** : Update through link errors.
