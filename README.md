@@ -2,7 +2,7 @@ MoneroMiner
 ====================================
 
 MoneroMiner is an assembly/ library to run a monero miner in .Net.
-The assembly was written and tested in .Net 4.8.
+The assembly was written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/jk5qalw6jgqy9ol6?svg=true)](https://ci.appveyor.com/project/SeppPenner/monerominer)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/MoneroMiner.svg)](https://github.com/SeppPenner/MoneroMiner/issues)
@@ -42,8 +42,4 @@ This project is based on [monerospelunker](https://github.com/jwinterm/monerospe
 Change history
 --------------
 
-* **Version 1.0.1.0 (2019-10-27)** : Updated nuget packages, added GitVersionTask.
-* **Version 1.0.0.3 (2019-05-07)** : Updated .Net version to 4.8.
-* **Version 1.0.0.2 (2018-03-15)** : Fixed bug with different .Net versions in the Nuget package.
-* **Version 1.0.0.1 (2018-03-04)** : Update through link errors.
-* **Version 1.0.0.0 (2018-03-04)** : 1.0 release.
+See the [Changelog](https://github.com/SeppPenner/MoneroMiner/blob/master/Changelog.md).
